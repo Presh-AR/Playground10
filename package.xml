@@ -2,6 +2,10 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
+        <members>HelloWorld12</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
         <name>AppMenu</name>
@@ -114,6 +118,7 @@
         <members>AssetRelationship.RelatedAssetId</members>
         <members>AssetRelationship.RelationshipType</members>
         <members>AssetRelationship.ToDate</members>
+        <members>Autorabit__c.link__c</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -588,6 +593,7 @@
         <members>Asset</members>
         <members>AssetRelationship</members>
         <members>AssistantProgress</members>
+        <members>Autorabit__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Case</members>
@@ -673,6 +679,7 @@
         <members>Account-Account Layout</members>
         <members>Asset-Asset Layout</members>
         <members>AssetRelationship-Asset Relationship Layout</members>
+        <members>Autorabit__c-Autorabit Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>

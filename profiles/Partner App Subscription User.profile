@@ -65,6 +65,10 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>HelloWorld12</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -339,6 +343,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>AssetRelationship.RelationshipType</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Autorabit__c.link__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1329,6 +1338,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AssetRelationship-Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Autorabit__c-Autorabit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
