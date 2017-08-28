@@ -50,6 +50,7 @@
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
         <members>Account.AnnualRevenue</members>
+        <members>Account.AutorabitExtId__c</members>
         <members>Account.BillingAddress</members>
         <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
@@ -207,6 +208,7 @@
         <members>Contact.AccountId</members>
         <members>Contact.AssistantName</members>
         <members>Contact.AssistantPhone</members>
+        <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Birthdate</members>
         <members>Contact.CleanStatus</members>
         <members>Contact.Department</members>
@@ -399,6 +401,7 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
+        <members>Goal.OrigGoalId__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Lead.Address</members>
@@ -433,9 +436,12 @@
         <members>Lead.Title</members>
         <members>Lead.Website</members>
         <members>LeadCleanInfo.Industry</members>
+        <members>Learning__c.AutorabitExtId__c</members>
+        <members>Learning__c.Subject__c</members>
         <members>Macro.Description</members>
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
+        <members>Metric.OrigMetricId__c</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.CampaignId</members>
@@ -563,6 +569,7 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>User.AutorabitExtId__c</members>
         <members>User.ManagerId</members>
         <members>UserProvisioningRequest.AppName</members>
         <members>UserProvisioningRequest.ApprovalStatus</members>
@@ -605,6 +612,7 @@
         <members>Idea</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
+        <members>Learning__c</members>
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
@@ -692,6 +700,7 @@
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
+        <members>Learning__c-Learning Layout</members>
         <members>Macro-Macro Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
@@ -767,6 +776,16 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>Learning_AutoRabit</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -779,6 +798,7 @@
         <members>Custom%3A Marketing Profile</members>
         <members>Custom%3A Sales Profile</members>
         <members>Custom%3A Support Profile</members>
+        <members>Customer AutoRabit</members>
         <members>Customer Community Login User</members>
         <members>Customer Community Plus Login User</members>
         <members>Customer Community Plus User</members>
@@ -806,6 +826,7 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
@@ -833,6 +854,8 @@
     </types>
     <types>
         <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>Metric.Completion</members>
+        <members>Metric.Progress</members>
         <name>RecordType</name>
     </types>
     <types>
