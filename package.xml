@@ -691,6 +691,7 @@
         <members>Asset-Asset Layout</members>
         <members>AssetRelationship-Asset Relationship Layout</members>
         <members>Autorabit__c-Autorabit Layout</members>
+        <members>BFL__c-BFL Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
