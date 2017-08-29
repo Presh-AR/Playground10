@@ -840,6 +840,7 @@
         <members>PlatformPortal</members>
         <members>ReadOnly</members>
         <members>SFDC1</members>
+        <members>SFDC2</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Stadan User</members>
