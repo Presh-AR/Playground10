@@ -129,6 +129,7 @@
         <members>AssetRelationship.RelatedAssetId</members>
         <members>AssetRelationship.RelationshipType</members>
         <members>AssetRelationship.ToDate</members>
+        <members>AutoRabitNew__c.Company_Number__c</members>
         <members>Autorabit__c.link__c</members>
         <members>BFL__c.Company_Name__c</members>
         <members>Campaign.ActualCost</members>
@@ -605,6 +606,7 @@
         <members>Asset</members>
         <members>AssetRelationship</members>
         <members>AssistantProgress</members>
+        <members>AutoRabitNew__c</members>
         <members>Autorabit__c</members>
         <members>BFL__c</members>
         <members>Campaign</members>
@@ -692,6 +694,7 @@
         <members>Account-Account Layout</members>
         <members>Asset-Asset Layout</members>
         <members>AssetRelationship-Asset Relationship Layout</members>
+        <members>AutoRabitNew__c-AutoRabitNew Layout</members>
         <members>Autorabit__c-Autorabit Layout</members>
         <members>BFL__c-BFL Layout</members>
         <members>Campaign-Campaign Layout</members>
