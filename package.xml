@@ -2,10 +2,15 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
+        <members>Accounts</members>
         <members>HelloSalesforceTest1</members>
         <members>HelloWorld12</members>
         <members>apexclass</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountTrigger</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>AppSwitcher</members>
