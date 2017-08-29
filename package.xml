@@ -6,6 +6,7 @@
         <members>HelloSalesforceTest1</members>
         <members>HelloWorld12</members>
         <members>JoinContactToCaseTest</members>
+        <members>Trigger_TestCase</members>
         <members>apexclass</members>
         <members>opp_test_class</members>
         <members>sampleCase</members>
@@ -14,6 +15,7 @@
     </types>
     <types>
         <members>AccountTrigger</members>
+        <members>Account_trigger</members>
         <members>CreateNewOpportunity</members>
         <members>JoinContactToCase</members>
         <name>ApexTrigger</name>
