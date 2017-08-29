@@ -132,6 +132,7 @@
         <members>AutoRabitNew__c.Company_Number__c</members>
         <members>Autorabit__c.link__c</members>
         <members>BFL__c.Company_Name__c</members>
+        <members>BFL__c.Company_Number__c</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>

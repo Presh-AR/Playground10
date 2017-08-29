@@ -352,6 +352,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>BFL__c.Company_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Campaign.ActualCost</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1341,6 +1346,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Autorabit__c-Autorabit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BFL__c-BFL Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>

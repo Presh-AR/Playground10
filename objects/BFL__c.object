@@ -61,6 +61,17 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Company_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <label>BFL</label>
     <nameField>
         <label>BFL Name</label>
