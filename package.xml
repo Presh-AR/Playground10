@@ -7,10 +7,12 @@
         <members>HelloWorld12</members>
         <members>JoinContactToCaseTest</members>
         <members>apexclass</members>
+        <members>opp_test_class</members>
         <name>ApexClass</name>
     </types>
     <types>
         <members>AccountTrigger</members>
+        <members>CreateNewOpportunity</members>
         <members>JoinContactToCase</members>
         <name>ApexTrigger</name>
     </types>
