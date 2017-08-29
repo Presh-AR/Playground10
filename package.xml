@@ -8,6 +8,8 @@
         <members>JoinContactToCaseTest</members>
         <members>apexclass</members>
         <members>opp_test_class</members>
+        <members>sampleCase</members>
+        <members>sampleCase_Test</members>
         <name>ApexClass</name>
     </types>
     <types>
