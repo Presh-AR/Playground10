@@ -847,6 +847,7 @@
         <members>Standard</members>
         <members>StandardAul</members>
         <members>Sys Adm</members>
+        <members>User Sales</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
     </types>
