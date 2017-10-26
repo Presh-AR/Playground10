@@ -802,6 +802,7 @@
     </types>
     <types>
         <members>Learning_AutoRabit</members>
+        <members>Super_Permission</members>
         <name>PermissionSet</name>
     </types>
     <types>
