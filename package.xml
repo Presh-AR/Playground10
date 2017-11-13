@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+    <version>40.0</version>
+    <types>
+        <members>Accounts</members>
+        <members>HelloSalesforceTest1</members>
+        <members>HelloWorld12</members>
+        <members>JoinContactToCaseTest</members>
+        <members>TestService</members>
+        <members>TestServiceTest</members>
+        <members>Trigger_TestCase</members>
+        <members>apexclass</members>
+        <members>opp_test_class</members>
+        <members>sampleCase</members>
+        <members>sampleCase_Test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountTrigger</members>
+        <members>Account_trigger</members>
+        <members>CreateNewOpportunity</members>
+        <members>JoinContactToCase</members>
+        <name>ApexTrigger</name>
+    </types>
     <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
