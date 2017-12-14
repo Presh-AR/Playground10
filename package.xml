@@ -606,6 +606,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>AZ_Object__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
