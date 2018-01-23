@@ -1,6 +1,6 @@
 public with sharing class TestService {
 
-    private Integer i = 5;
+    private Integer i = 10;
 
     public TestService() {
     }

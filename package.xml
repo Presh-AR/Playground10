@@ -140,6 +140,7 @@
         <members>Autorabit__c.link__c</members>
         <members>BFL__c.Company_Name__c</members>
         <members>BFL__c.Company_Number__c</members>
+        <members>BMJ_Object__c.BMJ__c</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -618,6 +619,7 @@
         <members>AutoRabitNew__c</members>
         <members>Autorabit__c</members>
         <members>BFL__c</members>
+        <members>BMJ_Object__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Case</members>
@@ -706,6 +708,7 @@
         <members>AutoRabitNew__c-AutoRabitNew Layout</members>
         <members>Autorabit__c-Autorabit Layout</members>
         <members>BFL__c-BFL Layout</members>
+        <members>BMJ_Object__c-BMJ Object Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
@@ -850,6 +853,7 @@
         <members>SFDC4</members>
         <members>SFDC6</members>
         <members>SFDC7</members>
+        <members>Sales User</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Stadan User</members>

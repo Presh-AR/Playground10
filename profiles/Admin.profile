@@ -69,6 +69,10 @@
         <apexClass>HelloWorld12</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>TestService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -353,6 +357,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>BFL__c.Company_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BMJ_Object__c.BMJ__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1351,6 +1360,9 @@
         <layout>BFL__c-BFL Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BMJ_Object__c-BMJ Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1462,6 +1474,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Autorabit__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>BMJ_Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -1757,6 +1778,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>CanVerifyComment</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ChatterEditOwnPost</name>
     </userPermissions>
     <userPermissions>
@@ -1957,6 +1982,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ListEmailSend</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageAnalyticSnapshots</name>
     </userPermissions>
     <userPermissions>
@@ -2141,6 +2170,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>Packaging2</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>PublishPackaging</name>
     </userPermissions>
     <userPermissions>
@@ -2213,11 +2246,19 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>UseWebLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ViewAllData</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewAllUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDataAssessment</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
